@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja - Developer - Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 23);
+            color: antiquewhite;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(10, 10, 138)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: antiquewhite;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 218);
+            font-size: 1.01rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(129, 7, 121);
+            height: 1px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+            
+        }
+
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 10px;
+            background: rgb(25, 2, 76);
+            color : white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 81vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 85px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+
+
+        .footer {
+            background-color: rgb(3, 11, 52);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 130px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons li a {
+    color: antiquewhite;
+    font-size: 22px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons li a:hover {
+    color: rgb(170, 107, 228);
+    transform: translateY(-3px);
+}
+
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pooja's Portfolio</div>
+            <div class="right"><div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a> </li>
+            </ul></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Pooja</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+
+
+
+            <div class="rightsection">
+                <img src="bg.png.avif" alt="" width="80%" margin="50px 0">
+            </div>
+
+        </section>
+
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="js logo.pnng.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+
+                    <div class="vertical-desc">
+                       JavaScript is a high-level programming language used to make web pages interactive and dynamic.
+                       It allows developers to handle user actions, update content without reloading, and create animations.
+                       JavaScript runs in web browsers and is also used on servers with Node.js.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="html logo.png.webp" alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+
+                    <div class="vertical-desc">
+                        HTML (HyperText Markup Language) is the standard language used to create and structure web pages.
+                        It defines the content of a website using elements like headings, paragraphs, images, and links.
+                        HTML forms the basic skeleton of a webpage that browsers display.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="css logo.png.webp" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+
+                    <div class="vertical-desc">
+                        CSS (Cascading Style Sheets) is a stylesheet language used to control the design and layout of web pages.
+                        It defines how HTML elements look, including colors, fonts, spacing, and positioning.
+                        CSS helps make websites visually attractive and responsive across different devices.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="react logo.png.png" alt="">
+                    <div class="vertical-title">
+                        React.JS
+                    </div>
+
+                    <div class="vertical-desc">
+                        React is a JavaScript library used to build fast and interactive user interfaces.
+                        It works by creating reusable components that manage their own state.
+                        React uses a virtual DOM to efficiently update and render UI changes.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="ts logo.png.png" alt="">
+                    <div class="vertical-title">
+                        TypeScript
+                    </div>
+
+                    <div class="vertical-desc">
+                        TypeScript is a superset of JavaScript developed by Microsoft that adds static typing.
+                        It helps catch errors early during development and improves code readability.
+                        TypeScript code is compiled into JavaScript and runs in all browsers.
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="angular logo.png.png" alt="">
+                    <div class="vertical-title">
+                        Angular
+                    </div>
+
+                    <div class="vertical-desc">
+                        Angular is a TypeScript-based front-end framework developed by Google for building dynamic web applications.
+                        It uses a component-based architecture to create scalable and maintainable user interfaces.
+                        Angular provides built-in features like data binding, routing, and dependency injection.
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Pooja's Developer </h3>
+                <h3>Portfolio</h3>
+            </div>
+            <div>
+                <ul class="social-icons">
+    <li>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </li>
+    <li>
+        <a href="https://twitter.com" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </li>
+    <li>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </li>
+    <li>
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </li>
+</ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; poojasportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+
+        });
+    </script>
+
+</body>
+
+</html>
